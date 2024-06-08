@@ -49,7 +49,6 @@ public class LocalDevelopmentMessageSender
 			VehiclePosition testVehicle =new VehicleBuilder().withName(testVehicleName)
                     										.withLat(startLat)
                     										.withLng(startLng)
-                    										.withSpeed(new BigDecimal("47.5"))
                     										.withTimestamp(new java.util.Date()).build();
 
 			lastPositions[i]=testVehicle;
